@@ -7,7 +7,7 @@
     background-color: black;
     background-position: center;
     background-size: cover;
-    height: 720px;
+    height: 1300px;
     color: black;
     font-size: 30px;
     padding-top : 10px;
@@ -188,13 +188,13 @@ ul li a:hover{
 .sblock{
     position: absolute;
     left: 100px;
-    top: 150px;
+    top: 125px;
 }
 .sblock h2{
     color:aliceblue;
     font-size: 25px;
     font-weight: lighter;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
     }
 
 .block2 h2{
@@ -234,7 +234,7 @@ ul li a:hover{
 
 .mainpage h5{
     position: absolute;
-    top: 750px;
+    top: 1340px;
     left: 700px;
     color: black;
     font-size: 15px;
@@ -244,7 +244,7 @@ ul li a:hover{
 .mainpage h4{
     text-decoration: none;
     position: absolute;
-    top: 795px;
+    top: 1370px;
     left: 690px;
     color: black;
     font-size: 15px;
@@ -256,7 +256,7 @@ ul li a:hover{
 .mainpage h3{
     text-decoration: none;
     position: absolute;
-    top: 825px;
+    top: 1395px;
     left: 730px;
     color: black;
     font-size: 15px;
@@ -268,7 +268,7 @@ ul li a:hover{
 .icons{
     width: 300px;
     position: absolute;
-    top: 875px;
+    top: 1430px;
     left: 650px;
 }
 
@@ -333,4 +333,234 @@ ul li a:hover{
 }
 .block1 button:hover{
     box-shadow: 0px 0px 5px rgb(167, 198, 222);
+}
+
+.dabba1{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 80px;
+    top: 200px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba1 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dabba2{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 430px;
+    top: 200px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba2 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dabba3{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 780px;
+    top: 200px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba3 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dabba4{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 1130px;
+    top: 200px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba4 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.sname1{
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.but1{
+    width: 80px;
+    height: 20px;
+    margin-top:  20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(111, 96, 120); 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.but2{
+    width: 80px;
+    height: 20px;
+    margin-top:  20px;
+    border-radius: 20px;
+    background-color: rgb(111, 96, 120); 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.but3{
+    width: 80px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin-top:  20px;
+    background-color: rgb(111, 96, 120); 
+}
+
+.dabba1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dabba2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dabba3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dabba4 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dabba5{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 80px;
+    top: 700px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba5 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dabba6{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 430px;
+    top: 700px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba6 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dabba7{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 780px;
+    top: 700px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba7 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dabba8{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 1130px;
+    top: 700px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
+.dabba8 img{
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dabba5 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dabba6 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dabba7 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dabba8 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
