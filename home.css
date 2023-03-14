@@ -125,6 +125,15 @@ ul li a:hover{
     left:1220px;
 }
 
+.btext h2{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 225px;
+    left: 120px;
+    font-weight: lighter;
+}
 .bsalon{
     width: 1320px;
     height: 400px;
@@ -336,7 +345,7 @@ ul li a:hover{
     font-family: 'Poiret One', cursive;
     font-weight: 300;
     font-size: 40px;
-    padding-top: 80px;
+    padding-top: 40px;
     height: 20vh;
     overflow: hidden;
     -backface-visibility: hidden;
@@ -581,7 +590,7 @@ ul li a:hover{
 
 .mainpage h5{
     position: absolute;
-    top: 750px;
+    top: 3050px;
     left: 700px;
     color: black;
     font-size: 15px;
@@ -591,7 +600,7 @@ ul li a:hover{
 .mainpage h4{
     text-decoration: none;
     position: absolute;
-    top: 795px;
+    top: 3080px;
     left: 690px;
     color: black;
     font-size: 15px;
@@ -603,7 +612,7 @@ ul li a:hover{
 .mainpage h3{
     text-decoration: none;
     position: absolute;
-    top: 825px;
+    top: 3100px;
     left: 730px;
     color: black;
     font-size: 15px;
@@ -615,7 +624,7 @@ ul li a:hover{
 .icons{
     width: 300px;
     position: absolute;
-    top: 875px;
+    top: 3150px;
     left: 650px;
 }
 
