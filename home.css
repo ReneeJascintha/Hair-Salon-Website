@@ -7,7 +7,7 @@
     background-color: black;
     background-position: center;
     background-size: cover;
-    height: 720px;
+    height: 3000px;
     color: black;
     font-size: 30px;
     padding-top : 10px;
@@ -111,10 +111,18 @@ ul li a:hover{
     float: left;
     padding: 10px;
     margin-top: 13px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.srch-icon{
+    width:15px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left:1220px;
 }
 
 .dabba1{
@@ -345,6 +353,120 @@ ul li a:hover{
     font-size: 12px;
     margin-top: 20px;
     margin-left: 10px;
+}
+
+.fade {
+    color: #4d4a4a;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 300;
+    font-size: 60px;
+    padding-top: 80px;
+    height: 20vh;
+    overflow: hidden;
+    -backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.impdiv {
+    text-align: center;
+    color:aliceblue;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#welc {
+    animation: showup 7s 1;
+    color: aliceblue;
+    animation-fill-mode: forwards;
+    padding-left: 420px;
+}
+
+#topart {
+    width: 0px;
+    color: aliceblue;
+    animation: reveal 7s 1;
+    animation-fill-mode: forwards;
+}
+
+#topart span {
+    margin-left: -355px;
+    color: aliceblue;
+    animation: slidein 7s 1;
+    animation-fill-mode: forwards;
+}
+
+#left {
+    padding-top: 120px;
+    
+}
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: -110px;
+    }
+
+    100% {
+        margin-left: -110px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 500px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        width: 500px;
+    }
+}
+
+.prof {
+    border: 0px;
+    border-radius: 55px;
 }
 
 .bsalon{
