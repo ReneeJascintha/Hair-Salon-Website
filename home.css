@@ -125,69 +125,62 @@ ul li a:hover{
     left:1220px;
 }
 
+.bsalon{
+    width: 1320px;
+    height: 400px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+}
+
 .dabba1{
     width: 200px;
-    height: 450px;
+    height: 375px;
     position: absolute;
-    left: 80px;
-    top: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
     box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
 }
 
 .dabba1 img{
     width: 180px;
-    height: 200px;
+    height: 180px;
     margin-left: 10px;
     margin-top: 5px;
 }
 
 .dabba2{
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 375px;
     position: absolute;
-    left: 430px;
-    top: 200px;
+    margin-left: 238px;
+    margin-top: 10px;
     box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
 }
 
 .dabba2 img{
-    width: 280px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin-left: 10px;
     margin-top: 5px;
 }
 
-.dabba3{
-    width: 300px;
-    height: 450px;
-    position: absolute;
-    left: 780px;
-    top: 200px;
-    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
-}
-
-.dabba3 img{
-    width: 280px;
-    height: 250px;
-    margin-left: 10px;
-    margin-top: 5px;
-}
 
 .dabba4{
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 375px;
     position: absolute;
-    left: 1130px;
-    top: 200px;
+    margin-left: 668px;
+    margin-top: 10px;
     box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
 }
 
 .dabba4 img{
-    width: 280px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin-left: 10px;
     margin-top: 5px;
 }
+
 
 .sname1{
     text-decoration: none;
@@ -224,6 +217,7 @@ ul li a:hover{
     font-family: 'Times New Roman', Times, serif;
     border-radius: 20px;
     margin-top:  20px;
+    margin-left: 50px;
     background-color: rgb(111, 96, 120); 
 }
 
@@ -243,13 +237,6 @@ ul li a:hover{
     margin-left: 10px;
 }
 
-.dabba3 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-    font-size: 12px;
-    margin-top: 20px;
-    margin-left: 10px;
-}
 
 .dabba4 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -260,65 +247,52 @@ ul li a:hover{
 }
 
 .dabba5{
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 375px;
     position: absolute;
-    left: 80px;
-    top: 700px;
+    margin-left: 883px;
+    margin-top: 10px;
     box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
 }
 
 .dabba5 img{
-    width: 280px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin-left: 10px;
     margin-top: 5px;
 }
+
 
 .dabba6{
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 375px;
     position: absolute;
-    left: 430px;
-    top: 700px;
-    box-shadow: 0px 0px 12px -3px rgb(111, 94, 125);
-}
-
-.dabba6 img{
-    width: 280px;
-    height: 250px;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-.dabba7{
-    width: 300px;
-    height: 450px;
-    position: absolute;
-    left: 780px;
-    top: 700px;
+    margin-left: 1098px;
+    margin-top: 10px;
     box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
 }
 
-.dabba7 img{
-    width: 280px;
-    height: 250px;
+.dabba6 img{
+    width: 180px;
+    height: 180px;
     margin-left: 10px;
     margin-top: 5px;
 }
 
+
+
 .dabba8{
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 375px;
     position: absolute;
-    left: 1130px;
-    top: 700px;
+    margin-left: 453px;
+    margin-top: 10px;
     box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
 }
 
 .dabba8 img{
-    width: 280px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -361,7 +335,7 @@ ul li a:hover{
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 40px;
     padding-top: 80px;
     height: 20vh;
     overflow: hidden;
@@ -372,7 +346,7 @@ ul li a:hover{
 
 .impdiv {
     text-align: center;
-    color:aliceblue;
+    color:rgb(161, 119, 177);
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
@@ -380,27 +354,27 @@ ul li a:hover{
 
 #welc {
     animation: showup 7s 1;
-    color: aliceblue;
+    color: rgb(161, 119, 177);
     animation-fill-mode: forwards;
-    padding-left: 420px;
+    padding-left: 580px;
 }
 
 #topart {
     width: 0px;
-    color: aliceblue;
+    color: rgb(161, 119, 177);
     animation: reveal 7s 1;
     animation-fill-mode: forwards;
 }
 
 #topart span {
-    margin-left: -355px;
-    color: aliceblue;
+    margin-left: -405px;
+    color:rgb(161, 119, 177);
     animation: slidein 7s 1;
     animation-fill-mode: forwards;
 }
 
 #left {
-    padding-top: 120px;
+    padding-top: 50px;
     
 }
 @keyframes showup {
@@ -431,11 +405,11 @@ ul li a:hover{
     }
 
     35% {
-        margin-left: -110px;
+        margin-left: -300px;
     }
 
     100% {
-        margin-left: -110px;
+        margin-left: -300px;
     }
 }
 
@@ -469,11 +443,136 @@ ul li a:hover{
     border-radius: 55px;
 }
 
-.bsalon{
-    width: 1050px;
-    height: 200px;
-    box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
+
+
+.box1{
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(138, 120, 156);
+    position: absolute;
+    top:800px;
+    left: 155px;
+    border-color: black;
+    box-shadow: 3px 3px 3px rgb(120, 87, 142);
+    transition: 0.7s ease-in-out;
 }
+
+.box1:hover{
+    box-shadow: 0px 0px 25px rgb(198, 160, 225);
+}
+
+.box1 img{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    left: 750px;
+    top: 25px;
+}
+
+#head1{
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#head2{
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.box2{
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(138, 120, 156);
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    border-color: black;
+    box-shadow: 3px 3px 3px rgb(120, 87, 142);
+    transition: 0.7s ease-in-out;
+}
+
+.box2:hover{
+    box-shadow: 0px 0px 25px rgb(198, 160, 225);
+}
+
+.box2 img{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    left: 50px;
+}
+
+#head3{
+    position: absolute;
+    top: 150px;
+    left: 620px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#head4{
+    position: absolute;
+    top: 230px;
+    left: 750px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#head41{
+    position: absolute;
+    top: 300px;
+    left: 575px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+.box3{
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(138, 120, 156);
+    position: absolute;
+    top:1400px;
+    left: 0px;
+    border-color: black;
+    box-shadow: 3px 3px 3px rgb(120, 87, 142);
+    transition: 0.7s ease-in-out;
+}
+
+.box3:hover{
+    box-shadow: 0px 0px 25px rgb(198, 160, 225);
+}
+
+.box3 img{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    left: 800px;
+    top: 25px;
+}
+
+#head5{
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#head6{
+    position: absolute;
+    top: 250px;
+    left: 190px;
+    font-size: 50px;
+    font-style: italic;
+}
+
 .mainpage{
     height: 200px;
     width: 100%;
