@@ -5,6 +5,8 @@
 
 .main{
     background:url("./images/bgi-login.jpg");
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     background-position: center;
     background-size: cover;
     height: 800px;
@@ -104,7 +106,7 @@ ul li a:hover{
     background: transparent;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgb(109, 83, 121);
     transition: 0.7s ease-in-out}
 
 .form:hover{
