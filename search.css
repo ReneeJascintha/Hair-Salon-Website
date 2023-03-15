@@ -109,17 +109,18 @@ ul li a:hover{
     font-size: 17px;
     padding: 10px;
     margin-top: 13px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 .srch-icon{
     width:15px;
     height: 15px;
     position: absolute;
     top: 30px;
-    left:1020px;
+    left: 970px;
 }
 
 .menu img{
