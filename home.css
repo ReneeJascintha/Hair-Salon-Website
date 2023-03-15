@@ -380,14 +380,14 @@ ul li a:hover{
 #topart {
     width: 0px;
     color: rgb(161, 119, 177);
-    animation: reveal 7s 1;
+    animation: reveal 4s 1;
     animation-fill-mode: forwards;
 }
 
 #topart span {
     margin-left: -405px;
     color:rgb(161, 119, 177);
-    animation: slidein 7s 1;
+    animation: slidein 4s 1;
     animation-fill-mode: forwards;
 }
 
