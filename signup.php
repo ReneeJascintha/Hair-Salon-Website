@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
       rel="stylesheet"
     />
-    <title>Mission Web Dev</title>
+    <title>Sign Up</title>
   </head>
   <body>
     <div class="main">
@@ -32,18 +32,21 @@
           </ul>
         </div>
       </div>
-      <div class="form">
-        <h4>LOGIN HERE</h4>
+      <div class="Hidden-form" id="signup">
+        <h4>SIGN UP</h4>
         <input type="text" name="username" placeholder="Enter Username" />
-        <input type="password" name="password" placeholder="Enter Password" />
-        <a href="./home.html"><button class="login">Login</button></a>
-        <h6>Don't have an account?</h6>
-        <br />
-        <a href="#" name="Sign" class="href"><h6>Sign Up</h6></a>
-      </div>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter New Password"
+        />
+        <input type="password" name="password" placeholder="Confirm Password" />
       
+        <a href="./home.html"><button class="signup">Sign Up</button></a>
+        <h6 class="linker" id="linkLogin">Already have an account?</h6>
+        <br />
+        <a href="./login.php" id="linkLogin" class="linker"><h6>Login</h6></a>
       </div>
-    </div>
     </div>
     <footer class="mainpage">
       <h5>CONTACT DETAILS</h5>
@@ -60,8 +63,6 @@
     </footer>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./login.js"></script>
   </body>
 </html>
-
-
-  

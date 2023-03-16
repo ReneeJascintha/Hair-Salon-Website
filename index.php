@@ -37,7 +37,7 @@
         <h4>But your Hair can be!!!</h4>
         <h6>Check Out the Nearest Salons!</h6>
         <button class="Discover">
-          <a href="./login.html">Discover Now!</a>
+          <a href="./login.php">Discover Now!</a>
         </button>
       </div>
     </div>
