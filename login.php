@@ -1,10 +1,15 @@
+<?<php
+session_start();
+    include("connection.php");
+    include("functions.php");
+?> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./salonpage.css" />
+    <link rel="stylesheet" href="./login.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
       rel="stylesheet"
     />
-    <title>Salon page</title>
+    <title>Login/Sign Up</title>
   </head>
   <body>
     <div class="main">
@@ -28,42 +33,36 @@
         </div>
         <div class="menu">
           <ul>
-            <li><a href="./AboutUs.html">APPOINTMENTS</a></li>
-          </ul>
-          <a href="./Cartpage.html">
-            <ul>
-              <li><img src="./images/carticon.jpg" /></li>
-            </ul>
-            </a>
-          <ul>
             <li><a href="./AboutUs.html">ABOUT US</a></li>
           </ul>
         </div>
-        <div class="search">
-          <input type="search" class="srch" name="" placeholder="Search" />
-          <img src="./images/srch-icon.png" class="srch-icon" />
-        </div>
       </div>
-      <div class="Block1">
-        <img src="./images/Hsalon1.jfif" class="img1" />
-        <a class="sname1">Cutting the Crap</a>
-        <a href="./page6"><button class="but1">HairCut</button></a>
-        <a href="./page6"><button class="but2">Hair Color</button></a>
-        <a href="./page6"><button class="but3">Hair Spa</button></a>
-        <p class="address">
-          B/23, Kasturba Marg, RA Colony, Bandra West<br /><br />Contact:
-          9458732454<br />Website: www.cutthecrap.in
-        </p>
+      <div class="form" id="login">
+        <h4>LOGIN HERE</h4>
+        <input
+          type="text"
+          name="username"
+          class="input"
+          placeholder="Enter Username"
+        />
+        <input
+          type="password"
+          name="password"
+          class="input"
+          placeholder="Enter Password"
+        />
+        <br>
+        <br>
+        <button value ="login" type="submit">Login</button>
+        <h6 class="linker" id="linkSignup">Don't have an account?</h6>
+      
+        <a href="./Signup.php" id="linkSignup" class="linker"><h6>Sign Up</h6></a>
       </div>
-    </div>
-      <div class="offerblock">
-        <p>Check out our Gallery!!</p>
-        <img src="./images/paul_mitchell_1_bananas_college_park_md_hair_salon.jpg" class="img1">
-        <img src="./images/gruaig-hair-salon-dublin-2.webp" class="img2">
-      </div>
+
     </div>
     <footer class="mainpage">
       <h5>CONTACT DETAILS</h5>
+      <hr />
       <a href="mailto:j.drenee04@gmail.com"><h4>h.buzznbangs@gmail.com</h4></a>
       <h3>9769565652</h3>
       <div class="icons">
@@ -76,5 +75,6 @@
     </footer>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./login.js"></script>
   </body>
 </html>

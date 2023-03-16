@@ -1,3 +1,11 @@
+<?<php
+session_start();
+$_SESSION;
+    include("connection.php");
+    include("functions.php");
+$userdata= check_login($con);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,7 +45,7 @@
         <h4>But your Hair can be!!!</h4>
         <h6>Check Out the Nearest Salons!</h6>
         <button class="Discover">
-          <a href="./login.html">Discover Now!</a>
+          <a href="./login.php">Discover Now!</a>
         </button>
       </div>
     </div>

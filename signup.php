@@ -1,3 +1,27 @@
+<?<php
+session_start();
+    include("connection.php");
+    include("functions.php");
+
+    if($_SERVER['REQUEST_METHOD'] == "POST")
+    {
+      $username = $_POST['username'];
+      $password = $_POST['password'];
+      
+      if(!empty($username) && !empty($password) && !is_numeric($username))
+      {
+        $user_id = random_num(20);
+        $query = "insert into users (user_id, username, password) values ('$user_id', '$username', '$password')"
+        mysqli_query($con, $query);
+        header("Location: login.php");
+        die;
+      }else
+      {
+        echo "Please enter Correct Username/Password"
+      }
+    } 
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +42,7 @@
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
       rel="stylesheet"
     />
-    <title>Mission Web Dev</title>
+    <title>Sign Up</title>
   </head>
   <body>
     <div class="main">
@@ -32,18 +56,20 @@
           </ul>
         </div>
       </div>
-      <div class="form">
-        <h4>LOGIN HERE</h4>
+      <div class="Hidden-form" id="signup">
+        <h4>SIGN UP</h4>
         <input type="text" name="username" placeholder="Enter Username" />
-        <input type="password" name="password" placeholder="Enter Password" />
-        <a href="./home.html"><button class="login">Login</button></a>
-        <h6>Don't have an account?</h6>
-        <br />
-        <a href="#" name="Sign" class="href"><h6>Sign Up</h6></a>
-      </div>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter New Password"
+        />
+        <input type="password" name="password" placeholder="Confirm Password" />
       
+        <button type ="submit" value="signup">Sign Up</button>
+        <h6 class="linker" id="linkLogin">Already have an account?</h6>
+        <a href="./login.php" id="linkLogin" class="linker"><h6>Login</h6></a>
       </div>
-    </div>
     </div>
     <footer class="mainpage">
       <h5>CONTACT DETAILS</h5>
@@ -60,8 +86,6 @@
     </footer>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./login.js"></script>
   </body>
 </html>
-
-
-  
