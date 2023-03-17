@@ -23,7 +23,15 @@ session_start();
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
       rel="stylesheet"
     />
+<<<<<<< HEAD
+<<<<<<<< HEAD:login.php
     <title>Login/Sign Up</title>
+========
+    <title>Sign Up</title>
+>>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679:signup.php
+=======
+    <title>Login/Sign Up</title>
+>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
   </head>
   <body>
     <div class="main">
@@ -37,6 +45,10 @@ session_start();
           </ul>
         </div>
       </div>
+<<<<<<< HEAD
+<<<<<<<< HEAD:login.php
+=======
+>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
       <div class="form" id="login">
         <h4>LOGIN HERE</h4>
         <input
@@ -51,6 +63,7 @@ session_start();
           class="input"
           placeholder="Enter Password"
         />
+<<<<<<< HEAD
         <br>
         <br>
         <button value ="login" type="submit">Login</button>
@@ -59,6 +72,36 @@ session_start();
         <a href="./Signup.php" id="linkSignup" class="linker"><h6>Sign Up</h6></a>
       </div>
 
+========
+=======
+        <a href="./home.html"
+          ><button class="login" type="submit">Login</button></a
+        >
+        <h6 class="linker" id="linkSignup">Don't have an account?</h6>
+        <br />
+        <a href="./Signup.php" id="linkSignup" class="linker"><h6>Sign Up</h6></a>
+      </div>
+
+>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
+      <div class="Hidden-form" id="signup">
+        <h4>SIGN UP</h4>
+        <input type="text" name="username" placeholder="Enter Username" />
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter New Password"
+        />
+        <input type="password" name="password" placeholder="Confirm Password" />
+      
+        <a href="./home.html"><button class="signup">Sign Up</button></a>
+        <h6 class="linker" id="linkLogin">Already have an account?</h6>
+        <br />
+        <a href="./login.php" id="linkLogin" class="linker"><h6>Login</h6></a>
+      </div>
+<<<<<<< HEAD
+>>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679:signup.php
+=======
+>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
     </div>
     <footer class="mainpage">
       <h5>CONTACT DETAILS</h5>
