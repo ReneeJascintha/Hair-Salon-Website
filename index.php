@@ -1,10 +1,4 @@
-<?<php
-session_start();
-$_SESSION;
-    include("connection.php");
-    include("functions.php");
-$userdata= check_login($con);
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">

@@ -1,8 +1,60 @@
-<?<php
+<?php
+//will handle login
 session_start();
-    include("connection.php");
-    include("functions.php");
-?> 
+
+//check if the user is already logged in
+if(isset($_SESSION['username']))
+{
+    header("location: home.php");
+    exit;
+}
+require_once "connection.php";
+$username = $password = "";
+$err ="";
+
+if($_SERVER['REQUEST_METHOD']=="POST"){
+    if(empty(trim($_POST['username'])) || empty(trim($_POST['password'])))
+    {
+        $err = "Please enter username + password";
+    }
+    else{
+        $username=trim($_POST['username']);
+        $password=trim($_POST['password']);
+    }
+
+    if(empty($err))
+    {
+        $sql="SELECT id,username,password FROM users WHERE username = ?";
+        $stmt=mysqli_prepare($conn,$sql);
+        mysqli_stmt_bind_param($stmt, "s" , $param_username);
+        $param_username = $username;
+        //try to execute
+        if(mysqli_stmt_execute($stmt))
+        {
+          mysqli_stmt_store_result($stmt);
+          if(mysqli_stmt_num_rows($stmt) == 1)
+          {
+           mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password);
+          if(mysqli_stmt_fetch($stmt))
+          {
+            if(password_verify($password, $hashed_password))
+            {
+                //this means password is correct
+                session_start();
+                $_SESSION["username"]= $username;
+                $_SESSION["id"]= $id;
+                $_SESSION["loggedin"]= true;
+
+                //redirect user to welcome page
+                header("location: home.php");
+            }
+          }  
+        }
+        }
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,15 +75,10 @@ session_start();
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
       rel="stylesheet"
     />
-<<<<<<< HEAD
-<<<<<<<< HEAD:login.php
-    <title>Login/Sign Up</title>
-========
-    <title>Sign Up</title>
->>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679:signup.php
-=======
-    <title>Login/Sign Up</title>
->>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
+
+    <title>Login</title>
+
+
   </head>
   <body>
     <div class="main">
@@ -45,11 +92,8 @@ session_start();
           </ul>
         </div>
       </div>
-<<<<<<< HEAD
-<<<<<<<< HEAD:login.php
-=======
->>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
-      <div class="form" id="login">
+
+      <form  method= "post" action="login.php" class="form" id="login">
         <h4>LOGIN HERE</h4>
         <input
           type="text"
@@ -63,45 +107,15 @@ session_start();
           class="input"
           placeholder="Enter Password"
         />
-<<<<<<< HEAD
+
         <br>
         <br>
         <button value ="login" type="submit">Login</button>
         <h6 class="linker" id="linkSignup">Don't have an account?</h6>
       
-        <a href="./Signup.php" id="linkSignup" class="linker"><h6>Sign Up</h6></a>
+        <a href="signup.php" id="linkSignup" class="linker"><h6>Sign Up</h6></a>
       </div>
 
-========
-=======
-        <a href="./home.html"
-          ><button class="login" type="submit">Login</button></a
-        >
-        <h6 class="linker" id="linkSignup">Don't have an account?</h6>
-        <br />
-        <a href="./Signup.php" id="linkSignup" class="linker"><h6>Sign Up</h6></a>
-      </div>
-
->>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
-      <div class="Hidden-form" id="signup">
-        <h4>SIGN UP</h4>
-        <input type="text" name="username" placeholder="Enter Username" />
-        <input
-          type="password"
-          name="password"
-          placeholder="Enter New Password"
-        />
-        <input type="password" name="password" placeholder="Confirm Password" />
-      
-        <a href="./home.html"><button class="signup">Sign Up</button></a>
-        <h6 class="linker" id="linkLogin">Already have an account?</h6>
-        <br />
-        <a href="./login.php" id="linkLogin" class="linker"><h6>Login</h6></a>
-      </div>
-<<<<<<< HEAD
->>>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679:signup.php
-=======
->>>>>>> caf561ba29ff51245b20b88a273bfe06155c5679
     </div>
     <footer class="mainpage">
       <h5>CONTACT DETAILS</h5>
@@ -118,6 +132,5 @@ session_start();
     </footer>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script src="./login.js"></script>
   </body>
 </html>

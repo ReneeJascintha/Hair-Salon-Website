@@ -59,10 +59,10 @@
 }
 
 .menu{
-    position: absolute;
-    width: 300px;
+    width: 600px;
     height: 70px;
-    left: 1100px;
+    position: absolute;
+    left: 1000px;
     
 }
 
@@ -93,6 +93,7 @@ ul li a:hover{
 
 .search{
     width: 330px;
+    height: 50px;
     float: left;
    
 }
@@ -102,7 +103,7 @@ ul li a:hover{
     background: transparent;
     position: absolute;
     top: 10px;
-    left: 800px;
+    left: -200px;
     width: 250px;
     height: 30px;
     border-color: white;
@@ -122,7 +123,7 @@ ul li a:hover{
     height: 15px;
     position: absolute;
     top: 30px;
-    left:1020px;
+    left:1000px;
 }
 
 .menu img{
@@ -149,6 +150,7 @@ ul li a:hover{
     margin-left: 100px;
     box-shadow: 0px 0px 8px -3px rgb(95, 106, 111);
 }
+
 
 .dabba1{
     width: 200px;
