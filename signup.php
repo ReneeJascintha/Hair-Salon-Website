@@ -31,8 +31,8 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             }
         }
     }
-    mysqli_stmt_close($stmt);
-
+    mysqli_stmt_close($stmt); 
+  }
 //check for password
 if(empty(trim($_POST['password']))){
     $password_err = "Password cannot be blank";
@@ -76,7 +76,7 @@ if(empty($username_err)&& empty($password_err)&& empty($confirm_password_err))
     mysqli_stmt_close($stmt);
 }  
 mysqli_close($conn);
-}
+
 ?>
 
 <!DOCTYPE html>

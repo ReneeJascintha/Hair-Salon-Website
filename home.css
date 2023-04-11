@@ -130,7 +130,7 @@ ul li a:hover{
     height: 35px;
     position: absolute;
     top: 20px;
-    left: 300px;
+    left: 290px;
     margin-left: 10px;
     margin-right: 25px;
 }
@@ -176,7 +176,7 @@ ul li a:hover{
 
 /* Change color of drpdown links on hover */
 .dropdown-content a:hover {
-    background-color: #949494;
+    background-color: #927c9c3e;
 }
 
 /* Show the dropdown menu on hover */

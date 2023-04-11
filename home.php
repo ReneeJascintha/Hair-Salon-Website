@@ -54,22 +54,20 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!==true)
             <input type="search" class="srch" name="" placeholder="Search" />
           </div>
           <img src="./images/srch-icon.png" class="srch-icon" />
-      <li>
-        <div class="dropdown">
-           <img
-              src="./images/profile-icon.png"
-              alt="">
-          <div type="" class="dropdown-content">
-            <a href="#">MY PROFILE</a>
-            <a href="#">SETTINGS</a>
-            <a href="#">HELP</a>
-            <a href="logout.php">LOG OUT</a>
-          </div>
+          <li>
+            <div class="dropdown">
+            <img
+                src="./images/profile-icon.png"
+                alt="">
+            <div type="" class="dropdown-content">
+              <a href="#">MY PROFILE</a>
+              <a href="#">SETTINGS</a>
+             <a href="#">HELP</a>
+              <a href="logout.php">LOG OUT</a>
         </div>
-      </li>
-        </div>
-        
       </div>
+    </div>
+  </div>   
       
       <div class="fade impdiv" id="welc">We'll Style,</div>
       <div class="fade impdiv" id="topart">
